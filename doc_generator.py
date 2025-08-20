@@ -14,7 +14,7 @@ def get_groq_client():
     """
     try:
         # Try to get API key from Streamlit secrets first, then environment
-        api_key = "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"
+        api_key = "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"
         if not api_key:
             st.error("GROQ_API_KEY not found. Please set it in your environment variables or Streamlit secrets.")
             return None
